@@ -6,4 +6,5 @@
  kubectl apply -f k8s/
 
  kubectl get all -n default
+ 
  kubectl describe ingress
