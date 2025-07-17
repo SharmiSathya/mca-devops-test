@@ -22,17 +22,17 @@ kubectl get pods -n ingress-nginx
 
 # Backend
 
-docker build -t backend:latest .
+   docker build -t backend:latest .
 
 # Frontend
 
-docker build -t frontend:latest .
+  docker build -t frontend:latest .
 
 5. Deploy to Kubernetes
 
-kubectl apply -f k8s/
+     kubectl apply -f k8s/
 
 6. Verify Deployment
 
-kubectl get all -n default
-kubectl describe ingress
+     kubectl get all -n default
+     kubectl describe ingress
