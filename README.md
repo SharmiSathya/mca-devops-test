@@ -20,13 +20,9 @@ kubectl get pods -n ingress-nginx
 
 4. Build & Push Docker Images
 
-# Backend
 
    docker build -t backend:latest .
-
-# Frontend
-
-  docker build -t frontend:latest .
+   docker build -t frontend:latest .
 
 5. Deploy to Kubernetes
 
